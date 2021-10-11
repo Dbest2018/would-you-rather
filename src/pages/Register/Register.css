@@ -1,0 +1,44 @@
+.register__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.register__header {
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid lightgray;
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.register__body {
+  display: flex;
+  align-items: center;
+}
+
+.body__left {
+  flex: 0.2;
+  padding: 20px;
+}
+
+.body__right {
+  flex: 0.8;
+  padding: 20px;
+  border-left: 1px solid lightgray;
+}
+
+.body__righttext {
+  color: red;
+  margin-bottom: 10px;
+}

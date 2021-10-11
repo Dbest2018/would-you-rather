@@ -1,0 +1,16 @@
+.home__container {
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+
+  width: fit-content;
+
+  margin-top: 100px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
