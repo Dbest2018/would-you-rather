@@ -1,0 +1,27 @@
+.question__container {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.question__header {
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: 600;
+  background-color: #f2f2f2;
+}
+
+.question__body {
+  display: flex;
+}
+
+.body__img {
+  padding: 30px;
+}
+
+.body__img > img {
+  width: 80px;
+  height: 80px;
+}
